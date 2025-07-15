@@ -1,6 +1,5 @@
 import requests
 from bs4 import BeautifulSoup
-import csv
 
 def main() -> None:
     """Fetch a web page and print its title and body text."""
