@@ -4,7 +4,7 @@ import csv
 
 def main() -> None:
     """Fetch a web page and print its title and body text."""
-    url = "https://bt.design/dot-with-arm-chair.html"
+    url = "https://livingedge.com.au/chairs/lounge_chairs/herman_miller-eames_lounge_chair_and_ottoman/HM-ES6707-0011.html"
     response = requests.get(url)
     response.raise_for_status()
 
